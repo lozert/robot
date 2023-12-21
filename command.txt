@@ -1,0 +1,19 @@
+down (nothing, 3);
+right (paint, 2);
+
+if (area is clear up){
+    up (nothing, 1);
+}
+else{
+    down (nothing, 1);
+}
+
+while (area is clear right){
+    right (nothing, 1);
+}
+
+while (area is clear up){
+    up (paint, 1);
+}
+
+left (nothing, 2);
